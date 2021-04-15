@@ -1,0 +1,164 @@
+
+/* font families */
+
+@font-face{
+  font-family: "timeburner";
+  src: url(Timeburner-xJB8.ttf);
+}
+
+@font-face{
+  font-family: "timeburner-bold";
+  src: url(TimeburnerBold-peGR.ttf);
+}
+/* sectional formatting */
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: 'timeburner-bold';
+}
+
+header{
+  background-color: #a7a7a7;
+  background-image: url('chrome.jpg');
+  background-attachment: fixed;
+  color: #3b3b27;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+nav{
+padding-right: 10px;
+position: -webkit-sticky; /* safari and webkit specific */
+position: sticky;
+top: 0;
+}
+
+body {
+  background-color: #acacac;
+  background-image: url('wood_slats.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  width: 100%;
+  color: #c9c5a9;
+}
+
+footer{
+  background-color: #acacac;
+  background-image: url('chrome.jpg');
+  background-attachment: fixed;
+  color: #57554d;
+  position:float;
+  left:0px;
+  bottom:20px;
+  height: 40px;
+  width:100%;
+  box-shadow: 0 50vh 0 50vh #acacac;
+}
+
+div.a{
+  padding: 20px;
+}
+
+div.b{
+  background-image: linear-gradient(#0e0c0cde, #0e0c0c00);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 5px;
+  width: 100%;
+  color: #e9d398
+}
+
+div.c{
+  padding: 20px;
+}
+
+div.d{
+  padding-top: 20px;
+  padding-left: 0px;
+  
+}
+
+div.e{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #a7a7a7;
+}
+
+/* headings formatting */ 
+h1{
+  font-family: timeburner-bold;
+  font-size: 48px;
+}
+
+h2{
+  font-family: timeburner-bold;
+  font-size: 24px;
+}
+
+h3{
+  font-family: timeburner-bold;
+  font-size: 18px;
+}
+
+.centered{
+  text-align: center;
+}
+
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.dimmedbg{
+  background-color: #8a8a8a59;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #c4b977;
+
+
+}
+/* Font Styling*/
+a{
+  font-size: 24px;
+  font-family: timeburner;
+}
+a:link{color: #252525}
+a:visited{color: #ffffff}
+a:hover{color: #e2d7aa}
+a:active{color: antiquewhite}
+
+
+/* button styling */
+
+.btn {
+  display: inline-block;
+  font-family: timeburner-bold;
+  background: rgba(173, 172, 172, 0.588);
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-default {
+  color: #333;
+  background-color: rgba(199, 199, 199, 0.281);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px;
+}
+
