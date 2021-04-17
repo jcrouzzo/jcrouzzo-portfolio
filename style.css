@@ -29,17 +29,13 @@ header{
   padding-right: 20px;
   width: 100%;
 }
-header h1{
-  padding-left: 10px;
-}
+
 nav{
 padding-right: 10px;
 position: -webkit-sticky; /* safari and webkit specific */
 position: sticky;
 top: 0;
 }
-
-
 
 body {
   background-color: #acacac;
@@ -61,30 +57,8 @@ footer{
   height: 40px;
   width:100%;
   box-shadow: 0 50vh 0 50vh #acacac;
-  text-align: center;
 }
 
-hr{
-  width: 80%;
-  height: 10px;
-  background-image: url('chrome.jpg');
-  background-attachment: fixed;
-}
-ul{
-  list-style-type: none;
-}
-ul li{
-  padding-bottom: 10px;
-}
-ul li a{
-  display: block;
-  list-style-type: none;
-  text-align: center;
-  overflow: auto;
-}
-article{
-  padding: 20px;
-}
 div.a{
   padding: 20px;
 }
@@ -115,10 +89,6 @@ div.e{
   border: 2px solid #a7a7a7;
 }
 
-div.menu-content{
-  display: none;
-  padding-top: 20px;
-}
 /* headings formatting */ 
 h1{
   font-family: timeburner-bold;
@@ -185,8 +155,8 @@ a:active{color: antiquewhite}
 }
 
 .btn-default {
-  color: rgb(196, 192, 135);
-  background-color: rgba(199, 199, 199, 0.61);
+  color: #333;
+  background-color: rgba(199, 199, 199, 0.281);
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 5px;
