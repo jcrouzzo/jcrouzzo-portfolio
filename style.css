@@ -116,6 +116,26 @@ div.e{
   margin: 20px;
   padding: 10px;
   border: 2px solid #a7a7a7;
+  border-radius: 6px;
+}
+
+div.projects{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+}
+
+div.project{
+  font-family: timeburner-bold;
+  background: rgba(173, 172, 172, 0.588);
+  font-size: 18px;
+  color: rgb(49, 35, 35);
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
 }
 
 div.menu-content{
