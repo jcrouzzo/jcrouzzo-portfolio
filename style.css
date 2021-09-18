@@ -169,6 +169,8 @@ h3{
 
 .right{
   float: right;
+  position: sticky;
+  top: 0;
 }
 
 .dimmedbg{
