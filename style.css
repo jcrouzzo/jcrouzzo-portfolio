@@ -158,6 +158,16 @@ h3{
   font-size: 18px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 .centered{
   text-align: center;
 }
